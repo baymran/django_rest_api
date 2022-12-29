@@ -1,0 +1,7 @@
+venv
+media
+static/ckeditor/
+static/debug_toolbar/
+.idea
+*.pyc
+*.envg
