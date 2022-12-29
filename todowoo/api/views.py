@@ -10,3 +10,5 @@ class TodoCompletedList(generics.ListAPIView):
         user = self.request.user
         objects = Todo.objects.filter(user=user, datecompleted__isnull=False).order_by('-datecompleted')
         return objects
+
+
