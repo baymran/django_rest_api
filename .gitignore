@@ -5,3 +5,4 @@ static/debug_toolbar/
 .idea
 *.pyc
 *.envg
+curlfun
